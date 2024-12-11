@@ -1,4 +1,9 @@
+dash
+scipy.stats
 streamlit
 pandas
 numpy
 matplotlib
+seaborn
+io
+base64
