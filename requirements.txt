@@ -4,5 +4,6 @@ pandas
 plotly
 numpy
 scipy
+scipy.stats
 seaborn
 matplotlib
