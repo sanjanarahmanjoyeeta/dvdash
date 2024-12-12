@@ -3,7 +3,6 @@ dash-bootstrap-components
 pandas
 plotly
 numpy
-scipy
-scipy.stats
+scipy==1.10.1
 seaborn
 matplotlib
