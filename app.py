@@ -29,6 +29,8 @@ import base64
 # Create the Dash app
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY], suppress_callback_exceptions=True)
 
+# Wrap Dash app in Flask app
+server = app.server  # Dash provides the Flask app
 
 # Precompute datasets
 # Normal distribution
